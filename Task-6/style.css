@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(175, 171, 171);
+}
+.container {
+  background-color: beige;
+  width: 30rem;
+  height: 38rem;
+  padding: 2.5rem;
+  border: 0.2rem solid pink;
+  border-radius: 1rem;
+  margin: 1rem auto auto auto;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contentItem1 {
+  font-size: 1.5em;
+  padding: 0.5rem 0.2rem;
+}
+.contentItem2 {
+  font-size: 1.2em;
+  padding: 0.5rem 0.2rem;
+  border-radius: 0.3rem;
+}
+.star {
+  color: red;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+#submit {
+  background-color: rgb(41, 41, 211);
+  color: white;
+  cursor: pointer;
+}
+
+#textarea {
+  height: 3rem;
+  resize: none;
+  border-radius: 0.3rem;
+}
+
+#submit:hover {
+  background-color: rgb(52, 194, 52);
+  color: white;
+  border-color: orange;
+}
+.errorMessage {
+  font-size: 0.8em;
+}
+input:invalid {
+  border-color: red;
+}

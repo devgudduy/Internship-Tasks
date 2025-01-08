@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Creating a container box -->
+    <div class="container">
+      <!-- Form Heading -->
+      <h1>Form (Let's Talk With Guddu)</h1>
+      <!-- Using form tag and inserting label and input -->
+      <form id="talkForm" onsubmit="return validateForm()" action="">
+        <!-- Name Field -->
+        <div class="content">
+          <label class="contentItem1" for="name"
+            >Name <span class="star">*</span>
+            <span
+              id="nameError"
+              class="errorMessage"
+              style="color: red; font-weight: bold"
+            ></span>
+          </label>
+          <input
+            class="contentItem2"
+            id="name"
+            type="text"
+            placeholder="Your name"
+          />
+        </div>
+
+        <!-- Email Field -->
+        <div class="content">
+          <label class="contentItem1" for="email"
+            >Email <span class="star">*</span>
+            <span
+              id="emailError"
+              class="errorMessage"
+              style="color: red; font-weight: bold"
+            ></span>
+          </label>
+
+          <input
+            class="contentItem2"
+            id="email"
+            type="email"
+            placeholder="Your email"
+          />
+        </div>
+
+        <!-- Subject Field -->
+        <div class="content">
+          <label class="contentItem1" for="subject">Subject </label>
+          <input class="contentItem2" type="text" placeholder="Your subject" />
+        </div>
+
+        <div class="content">
+          <label class="contentItem1" for="message">Message </label>
+          <textarea
+            id="textarea"
+            class="contentItem1"
+            name="message"
+            placeholder="Write message"
+          ></textarea>
+        </div>
+
+        <!-- Creating Submit Button  -->
+        <div class="content">
+          <input
+            id="submit"
+            class="contentItem2"
+            type="submit"
+            value="Submit"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
