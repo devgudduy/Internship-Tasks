@@ -1,0 +1,30 @@
+body{
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+#mybtn {
+  text-align: center;
+  padding: 0.2rem 0.4rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border-color: orange;
+  border-width: 0.5rem;
+}
+#mybtn:hover {
+  background-color: rgb(90, 86, 86);
+  color: white;
+  border-color: red;
+}
+#text {
+  color: black;
+  font-size: 2rem ;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
