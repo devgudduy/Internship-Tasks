@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  padding: 1rem 0rem;
+}
+.navbar {
+  color: white;
+  background-color: rgb(32, 31, 31);
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.img {
+  height: 12rem;
+  width: 12rem;
+  background-color: rgb(88, 88, 165);
+  background-image: url(photo\ &\ svg/profile.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0rem 1rem;
+}
+.proText {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+}
+#text {
+  color: rgb(80, 74, 74);
+  padding: 0.5rem;
+}
+#location {
+  padding: 0.5rem;
+  font-weight: 600;
+}
+.line {
+  height: 0.1rem;
+  width: 100%;
+  background-color: rgb(109, 106, 106);
+  margin: 1rem 0rem;
+}
+#svg {
+  height: 1rem;
+  padding: 0rem 0.3rem;
+}
+
+.button {
+  display: flex;
+  /* gap: 2rem; */
+  padding: 0rem 0.5rem;
+}
+.newButton {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+.newBtn {
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.btn img {
+  height: 1rem;
+}
+.newBtn img {
+  height: 1rem;
+}
+
+.button :hover {
+  background-color: rgb(187, 181, 181);
+}
+.newButton :hover {
+  background-color: rgb(187, 181, 181);
+}
+
+.aboutText {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+.regards {
+  margin: 0.5rem 0rem;
+}
+.footer {
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+}
+.footer a img {
+  height: 1.5rem;
+  padding: 0rem 0.3rem;
+}
+.footer :hover {
+  color: blue;
+}
+/* screen size for Laptop/Desktop */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    background-color: blue;
+    font-size: 2.5rem;
+  }
+  .main {
+    background-color: rgba(0, 0, 255, 0.4);
+  }
+  .footer {
+    background-color: blue;
+  }
+  .footer :hover {
+    color: rgba(255, 0, 0, 0.815);
+  }
+}
+
+/* screen size for medium devices(iPad) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgb(182, 19, 19);
+    font-size: 2rem;
+  }
+  .main {
+    background-color: rgba(182, 19, 19, 0.4);
+  }
+  .footer {
+    background-color: rgb(182, 19, 19);
+  }
+  .footer :hover {
+    color: blue;
+  }
+}
+
+/* screen size for small devices(Mobiles) */
+@media screen and (max-width: 400px) {
+  .navbar {
+    background-color: orange;
+    font-size: 1.5rem;
+  }
+  .main {
+    background-color: rgba(255, 166, 0, 0.4);
+  }
+  .img {
+    margin: 0rem 5rem;
+  }
+  .proText {
+    font-size: 1.4rem;
+  }
+  .footer {
+    background-color: orange;
+  }
+}
